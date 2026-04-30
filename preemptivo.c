@@ -101,7 +101,7 @@ void remover_processo_atual(){
 
 void verificar_preempcao(){
     for(int j = 1; j < aux; j++){
-        if((empilhador[j] != -1) && (processos[empilhador[j]].prioridade > processos[empilhador[0]].prioridade)){
+        if((empilhador[j] != -1) && (processos[empilhador[j]].prioridade < processos[empilhador[0]].prioridade)){
             int troca = empilhador[j];
             empilhador[j] = empilhador[0];
             empilhador[0] = troca;
