@@ -28,15 +28,6 @@ O trabalho aborda os seguintes tópicos:
 * Recursos de segurança e proteção, incluindo UAC (User Account Control);
 * Demonstração prática utilizando virtualização.
 
-## Estrutura do Repositório
-
-```text
-.
-├── Trabalho_1/
-│   └── Windows Vista.pdf
-├── README.md
-```
-
 ## Ferramentas Utilizadas
 
 - **Canva**: desenvolvimento dos slides e organização visual da apresentação;
