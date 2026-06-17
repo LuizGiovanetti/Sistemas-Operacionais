@@ -64,10 +64,12 @@ Uma tribo gaulesa janta em comunidade a partir de uma mesa com espaço para **M*
 ## Logs de Eventos
 
 O sistema gera logs detalhados das ações executadas, como:
+```bash
 [Asterix] CHEGOU a fogueira
 [Asterix] PEGOU um javali (restam 2 javalis na mesa)
 [Asterix] COMENDO [javali!] (refeicao 1/3)
 [~~~ Cozinheiro ~~~] REPOS os javalis (3 javalis na mesa)
+```
 
 ## Como Compilar e Executar
 
@@ -108,7 +110,7 @@ gcc Monike_Luiz.c -o Monike_Luiz -fopenmp
 ```
 
 ## Exemplo de Saída
-
+```bash
 +==============================================+
 |             JANTAR DOS GAULESES              |
 |==============================================|
@@ -133,6 +135,7 @@ gcc Monike_Luiz.c -o Monike_Luiz -fopenmp
 |----------------------------------------------|
 |  Total de refeicoes: 15                      |
 +==============================================+
+```
 
 ## Autores
 
